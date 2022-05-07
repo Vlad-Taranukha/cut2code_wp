@@ -5,11 +5,6 @@
  * Version: 1.0
  */
 @import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Poppins:wght@400;500;600;800;900&family=Roboto:wght@500;700&display=swap");
-/*
-font-family: 'Abhaya Libre', serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
 * {
   margin: 0;
   padding: 0;
@@ -35,6 +30,7 @@ html {
   font-weight: 700;
 }
 
+/*Link default styles*/
 .link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -43,6 +39,7 @@ html {
   text-decoration: none;
 }
 
+/*Link button default*/
 .link-btn {
   border-radius: 35px;
   border: none;
@@ -59,6 +56,7 @@ html {
   }
 }
 
+/*Main menu*/
 .main-menu {
   position: fixed;
   top: 0;
@@ -73,6 +71,7 @@ html {
   padding: 0 50px;
   -webkit-box-shadow: 10px 0 10px -4px rgba(255, 67, 99, 0.75);
   box-shadow: 10px 0 10px -4px rgba(255, 67, 99, 0.75);
+  /*Main menu close button*/
 }
 @media all and (max-width: 576px) {
   .main-menu {
@@ -97,6 +96,7 @@ html {
   }
 }
 
+/*Menu list*/
 .nav {
   display: flex;
   flex-direction: column;
@@ -117,6 +117,7 @@ html {
   color: #FF4363;
 }
 
+/*Header*/
 .header {
   position: relative;
   background: #FF4363;
@@ -375,6 +376,7 @@ html {
   cursor: pointer;
 }
 
+/*Features*/
 .features {
   padding: 120px 0;
 }
@@ -468,6 +470,7 @@ html {
   }
 }
 
+/*Simple section*/
 .section {
   padding-bottom: 70px;
 }
@@ -630,6 +633,7 @@ html {
   }
 }
 
+/*Questions*/
 .question:last-of-type .question__answer {
   margin-bottom: 0;
 }
@@ -657,6 +661,7 @@ html {
   margin-bottom: 30px;
 }
 
+/*Counters*/
 .counters {
   margin: 0;
   background: #FF4363;
@@ -709,6 +714,7 @@ html {
   margin-bottom: 0;
 }
 
+/*Contacts*/
 .contacts {
   padding: 100px 0 110px;
   max-width: 525px;
@@ -789,6 +795,7 @@ html {
   }
 }
 
+/*Footer*/
 .footer {
   padding: 30px 0;
   background: #000;
